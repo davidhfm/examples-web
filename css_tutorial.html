@@ -440,4 +440,29 @@
   </tr>
 </table>
 </section>
+
+<h2>CSS Display</h2>
+<section>
+<p id="p-display-example" style="border:2px solid red">display:block</p>
+<button id="button-display-example" onclick="change_display_block_inline_example()">Change display to inline</button>
+<script>
+function change_display_block_inline_example() {
+  let p = document.getElementById("p-display-example");
+  let button = document.getElementById("button-display-example");
+  if (p.style.display == "block") {
+    p.style.display = "inline";
+    p.textContent = "display:inline";
+    button.textContent = "Change display to none";
+  } else if (p.style.display == "inline") {
+    p.style.display = "none";
+    button.textContent = "Change display to block";
+  } else {
+    p.style.display = "block";
+    p.textContent = "display:block";
+    button.textContent = "Change display to inline";
+  }
+}
+</script>
+</section>
+
 </html>
