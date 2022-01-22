@@ -32,3 +32,9 @@
   padding-bottom: 30px;
   padding-left: 40px;
 }
+
+.text-examples-container > p {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 0px;
+}
