@@ -38,3 +38,27 @@
   border-bottom: 1px solid black;
   padding: 5px 0px;
 }
+
+/* START LINK EXAMPLE */
+.link-example:link {
+  text-decoration:none;
+  color:white;
+  background-color:#220000;
+  padding:10px 20px;
+  display:inline-block;
+  border-radius:10px;
+}
+
+.link-example:visited {
+  color:white;
+  background-color:blue;
+}
+
+.link-example:hover {
+  background-color:#bb0000;
+}
+
+.link-example:active {
+  background-color:#550000;
+}
+/* END LINK EXAMPLE */
