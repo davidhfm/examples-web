@@ -62,3 +62,96 @@
   background-color:#550000;
 }
 /* END LINK EXAMPLE */
+
+/* START TABLE EXAMPLE */
+table {
+  margin:1em;
+}
+
+.table-example-1, .table-example-1 th, .table-example-1 td {
+  border: 2px solid black;
+}
+
+.table-example-2 {
+  width:50%;
+}
+
+.table-example-2, .table-example-2 th, .table-example-2 td {
+  border: 2px solid black;
+}
+
+.table-example-3 {
+  border-collapse:collapse;
+}
+
+.table-example-3, .table-example-3 th, .table-example-3 td {
+  border: 2px solid black;
+}
+
+.table-example-4 {
+  border-collapse:collapse;
+  height:100px;
+}
+
+.table-example-4, .table-example-4 th, .table-example-4 td {
+  border: 2px solid black;
+}
+
+.table-example-5 {
+  border-collapse:collapse;
+  text-align:center;
+}
+
+.table-example-5, .table-example-5 th, .table-example-5 td {
+  border: 2px solid black;
+}
+
+.table-example-6 {
+  border-collapse:collapse;
+  height:100px;
+}
+
+.table-example-6, .table-example-6 th, .table-example-6 td {
+  border: 2px solid black;
+}
+
+.table-example-6 td {
+  vertical-align:bottom;
+}
+
+.table-example-7 {
+  border-collapse:collapse;
+}
+
+.table-example-7, .table-example-7 th, .table-example-7 td {
+  border: 2px solid black;
+}
+
+.table-example-7 td {
+  padding:10px;
+}
+
+.table-example-8 {
+  border-collapse:collapse;
+}
+
+.table-example-8, .table-example-8 th, .table-example-8 td {
+  border: 2px solid black;
+}
+
+.table-example-8 tr:hover {
+  background-color:red;
+}
+
+.table-example-9 {
+  border-collapse:collapse;
+}
+
+.table-example-9, .table-example-9 th, .table-example-9 td {
+  border: 2px solid black;
+}
+
+.table-example-9 tr:nth-child(even) {
+  background-color:red;
+}
+/* END TABLE EXAMPLE */
