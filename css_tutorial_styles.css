@@ -155,3 +155,23 @@ table {
   background-color:red;
 }
 /* END TABLE EXAMPLE */
+
+.position-fixed-example {
+  height:100px;
+  width:160px;
+  border:1px solid black;
+  background-color:white;
+  position:fixed;
+  right:0px;
+  bottom:0px;
+}
+
+.position-absolute-example {
+  height:100px;
+  width:120px;
+  background-color:red;
+  border-style:solid;
+  position:absolute;
+  bottom:0;
+  right:0;
+}

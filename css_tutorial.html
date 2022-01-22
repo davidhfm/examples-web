@@ -12,9 +12,12 @@
 <title>CSS Tutorial</title>
 </head>
 
-<body>
-<header>
-<h1>CSS Tutorial</h1>
+<body style="position:relative;">
+<header  style="position:sticky;top:0;background-color:white;border-bottom:1px solid grey;">
+<h1 style="display:inline-block;width:50%;margin:0;">CSS Tutorial</h1>
+<div style="display:inline-block;width:49%;text-align:right;margin:0;">
+position:stick; top:0
+</div>
 </header>
 
 <h2>CSS Colors</h2>
@@ -158,7 +161,6 @@
   max-width:700px
 </div>
 </section>
-</body>
 
 <h2>CSS Outline</h2>
 <section style="display:flex;flex-wrap:wrap;">
@@ -443,7 +445,7 @@
 
 <h2>CSS Display</h2>
 <section>
-<p id="p-display-example" style="border:2px solid red">display:block</p>
+<p id="p-display-example" style="border:2px solid red;">display:block</p>
 <button id="button-display-example" onclick="change_display_block_inline_example()">Change display to inline</button>
 <script>
 function change_display_block_inline_example() {
@@ -465,4 +467,34 @@ function change_display_block_inline_example() {
 </script>
 </section>
 
+<h2>CSS Position</h2>
+<section>
+<p style="position:relative;left:30px;">position:relative, left:30px</p>
+<div class="position-fixed-example">
+  position:fixed <br><br>
+  bottom:0px <br><br>
+  right:0px
+</div>
+<div class="position-absolute-example">
+  position:absolute <br><br>
+  bottom:0 <br><br>
+  right:0 
+</div>
+<div style="position:relative;width:512px;height:512px;">
+<img src="images/ayaya-512.png" alt="ayaya" style="height:512px;width:512px;opacity:0.7;">
+<div style="position:absolute;left:8px;top:8px;">position:absolute;<br>left:8px;<br>top:8px;</div>
+<div style="position:absolute;right:8px;top:8px;">position:absolute;<br>right:8px;<br>top:8px;</div>
+<div style="position:absolute;left:8px;bottom:8px;">position:absolute;<br>left:8px;<br>bottom:8px;</div>
+<div style="position:absolute;right:8px;bottom:8px;">position:absolute;<br>right:8px;<br>bottom:8px;</div>
+<div style="position:absolute;text-align:center;top:50%;width:100%;">
+  position:absolute;<br>
+  text-align:center;<br>
+  top:50%;<br>
+  width:100%;
+</div>
+</div>
+</section>
+
+
+</body>
 </html>
