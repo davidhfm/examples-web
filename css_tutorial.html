@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css_tutorial_styles.css">
+<title>CSS Tutorial</title>
+</head>
+
+<body>
+<header>
+<h1>CSS Tutorial</h1>
+</header>
+
+<h2>CSS Colors</h2>
+<section style="display:flex;flex-wrap:wrap;">
+<div class="square-10em" style="background-color:red;">background-color: red</div>
+<div class="square-10em" style="background-color:rgb(255,0,0);">background-color: rgb(255,0,0)</div>
+<div class="square-10em" style="background-color:#ff0000;">background-color: #ff0000</div>
+<div class="square-10em" style="background-color:hsl(0,100%,50%);">background-color: hsl(0,100%,50%)</div>
+<div class="square-10em" style="background-color:rgba(255,0,0,0.5);">background-color: rgb(255,0,0,0.5)</div>
+<div class="square-10em" style="background-color:hsla(0,100%,50%,50%);">background-color: hsl(0,100%,50%,50%)</div>
+</section>
+
+<h2>CSS background</h2>
+<section style="display:flex;flex-wrap:wrap;">
+<div class="square-10em" style="background-color:blue;color:white">background-color:blue</div>
+<div class="square-10em" style="background-image:url('images/ayaya-64.png');">background-image: url('images/ayaya-64.png')</div>
+<div class="square-10em" style="background-image:url('images/ayaya-gif-64.gif');">background-image: url('images/ayaya-gif-64.gif')</div>
+<div class="square-10em" style="background-image:url('images/ayaya-64.png');background-repeat:repeat-x;">
+  background-image: url('images/ayaya-64.png') <br><br>
+  background-repeat: repeat-x
+</div>
+<div class="square-10em" style="background-image:url('images/ayaya-64.png');background-repeat:repeat-y;">
+  background-image: url('images/ayaya-64.png') <br><br>
+  background-repeat: repeat-y
+</div>
+<div class="square-10em" style="background-image:url('images/ayaya-64.png');background-repeat:no-repeat;">
+  background-image: url('images/ayaya-64.png') <br><br>
+  background-repeat: no-repeat
+</div>
+<div class="square-10em" style="background-image:url('images/ayaya-64.png');background-repeat:no-repeat;background-position:right bottom;">
+  background-image: url('images/ayaya-64.png') <br><br>
+  background-repeat: no-repeat <br><br>
+  background-position:right bottom
+</div>
+<div class="square-10em" style="background-image:url('images/ayaya-512.png');background-atachment:fixed;">
+  background-image: url('images/ayaya-512.png') <br><br>
+  background-atachment: fixed
+</div>
+<div class="square-10em" style="background:#ff0000 url('images/ayaya-64.png') no-repeat right top;">
+  background: #ff0000 url('images/ayaya-64.png') no-repeat right top
+</div>
+</section>
+
+<h2>CSS Borders</h2>
+<section style="display:flex;flex-wrap:wrap">
+<div class="square-10em" style="border-style:dotted">border-style:dotted</div>
+<div class="square-10em" style="border-style:dashed">border-style:dashed</div>
+<div class="square-10em" style="border-style:solid">border-style:solid</div>
+<div class="square-10em" style="border-style:double">border-style:double</div>
+<div class="square-10em" style="border-style:groove">border-style:groove</div>
+<div class="square-10em" style="border-style:ridge">border-style:ridge</div>
+<div class="square-10em" style="border-style:inset">border-style:inset</div>
+<div class="square-10em" style="border-style:outset">border-style:outset</div>
+<div class="square-10em" style="border-style:none">border-style:none</div>
+<div class="square-10em" style="border-style:hidden">border-style:hidden</div>
+<div class="square-10em" style="border-style:solid;border-width:3px;">
+  border-style:solid <br><br>
+  border-width:3px
+</div>
+<div class="square-10em" style="border-style:solid;border-width:medium;">
+  border-style:solid <br><br>
+  border-width:medium
+</div>
+<div class="square-10em" style="border-style:solid;border-width:3px 5px;">
+  border-style:solid <br><br>
+  border-width: 3px 5px
+</div>
+<div class="square-10em" style="border-style:solid;border-width:1px 2px 3px 4px;">
+  border-style:solid <br><br>
+  border-width: 1px 2px 3px 4px
+</div>
+<div class="square-10em" style="border-style:solid;border-color:red;">
+  border-style:solid <br><br>
+  border-color: red
+</div>
+<div class="square-10em" style="border-style:solid;border-color:cyan magenta yellow black;">
+  border-style:solid <br><br>
+  border-color: cyan magenta yellow black
+</div>
+<div class="square-10em border-side-style-example">
+  border-top-style: dotted <br><br>
+  border-right-style: solid <br><br>
+  border-bottom-style: dashed <br><br>
+  border-left-style: double
+</div>
+<div class="square-10em" style="border-style: dotted solid dashed double;">
+  border-style: dotted solid dashed double
+</div>
+<div class="square-10em" style="border-style: dotted double;">
+  border-style: dotted double
+</div>
+<div class="square-10em" style="border: 2px solid red;">
+  border: 2px solid red
+</div>
+<div class="square-10em border-side-shorthand-example" style="overflow:auto;">
+  border-top: 1px dotted cyan <br><br>
+  border-right: 2px solid magenta <br><br>
+  border-bottom: 3px dashed yellow <br><br>
+  border-left: 4px double black
+</div>
+<div class="square-10em" style="border-radius: 50px;">
+  border-radius: 50px
+</div>
+</section>
+
+<h2>CSS Margin</h2>
+<section style="display:flex;flex-wrap:wrap;">
+<div class="square-10em margin-side-example">
+  margin-top: 10px <br><br>
+  margin-right: 20px <br><br>
+  margin-bottom: 30px <br><br>
+  margin-left: 40px
+</div>
+<div class="square-10em" style="margin: 10px 20px 30px 40px;">margin: 10px 20px 30px 40px</div>
+<div class="square-10em" style="margin: auto;">margin: auto</div>
+</section>
+
+<h2>CSS Padding</h2>
+<section style="display:flex;flex-wrap:wrap;">
+<div class="square-10em padding-side-example">
+  padding-top: 10px <br><br>
+  padding-right: 20px <br><br>
+  padding-bottom: 30px <br><br>
+  padding-left: 40px
+</div>
+<div class="square-10em" style="padding: 10px 20px 30px 40px;">padding: 10px 20px 30px 40px</div>
+</section>
+
+<h2>CSS Height and Width</h2>
+<section >
+<div style="height:100px;width:100px;border-style:solid;margin:0.5em;">
+  height:100px <br><br>
+  width:100px
+</div>
+<div style="height:100px;width:30%;border-style:solid;margin:0.5em;">
+  height:100px <br><br>
+  width:30%
+</div>
+<div style="height:100px;max-width:700px;border-style:solid;margin:0.5em;">
+  height:100px <br><br>
+  max-width:700px
+</div>
+</section>
+</body>
+
+</html>

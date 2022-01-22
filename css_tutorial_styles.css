@@ -1,0 +1,34 @@
+.square-10em {
+  width:10em;
+  height:10em;
+  border-style:solid;
+  margin:0.5em;
+}
+
+.border-side-style-example {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dashed;
+  border-left-style: double;
+}
+
+.border-side-shorthand-example {
+  border-top: 1px dotted cyan;
+  border-right: 2px solid magenta;
+  border-bottom: 3px dashed yellow;
+  border-left: 4px double black;
+}
+
+.margin-side-example {
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+.padding-side-example {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
