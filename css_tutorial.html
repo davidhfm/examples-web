@@ -495,6 +495,31 @@ function change_display_block_inline_example() {
 </div>
 </section>
 
+<h2>CSS Z-Index</h2>
+<section>
+<div class="z-index-container">
+<div id="z-index-box-1" class="z-index-box-1" style="z-index:-1;">z-index:-1</div>
+<div id="z-index-box-2" class="z-index-box-2" style="z-index:1;padding-top:5em;box-sizing:border-box;">z-index:1</div>
+</div>
+<button id="change-z-index-button" onclick="change_boxes_z_index()" style="margin-top:5px;">change z-index</button>
+<script>
+function change_boxes_z_index() {
+  let box1 = document.getElementById("z-index-box-1");
+  let box2 = document.getElementById("z-index-box-2");
+  if (box1.style.zIndex == "1") {
+    box1.style.zIndex = "-1";
+    box2.style.zIndex = "1";
+    box1.textContent = "z-index:-1";
+    box2.textContent = "z-index:1";
+  } else {
+    box1.style.zIndex = "1";
+    box2.style.zIndex = "-1";
+    box1.textContent = "z-index:1";
+    box2.textContent = "z-index:-1";
+  }
+}
+</script>
+</section>
 
 </body>
 </html>

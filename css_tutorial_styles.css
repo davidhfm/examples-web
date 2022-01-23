@@ -175,3 +175,31 @@ table {
   bottom:0;
   right:0;
 }
+
+/* START Z-INDEX EXAMPLE */
+
+.z-index-container {
+  width:10em;
+  height:10em;
+  position:relative;
+}
+
+.z-index-box-1 {
+  width:7em;
+  height:7em;
+  position:absolute;
+  top:0;
+  left:9;
+  background-color:red;
+}
+
+.z-index-box-2 {
+  width:6em;
+  height:6em;
+  position:absolute;
+  bottom:0;
+  right:0;
+  background-color:blue;
+}
+
+/* END Z-INDEX EXAMPLE */
