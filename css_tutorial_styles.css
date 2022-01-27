@@ -203,3 +203,9 @@ table {
 }
 
 /* END Z-INDEX EXAMPLE */
+
+.clearfix::after {
+  content:"";
+  clear:both;
+  display:table;
+}
