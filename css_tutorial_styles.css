@@ -209,3 +209,11 @@ table {
   clear:both;
   display:table;
 }
+
+.inline-block-example {
+  width:30px;
+  height:30px;
+  outline:1px solid black;
+  padding:5px;
+  margin:5px;
+}
