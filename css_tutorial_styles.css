@@ -240,3 +240,42 @@ table {
 }
 
 /* END NAVBAR EXAMPLE */
+
+/* START DROPDOWN EXAMPLE */
+
+.dropdown-example {
+  position:relative;
+  width:100px;
+}
+
+.dropdown-example span {
+  display:block;
+  color:white;
+  background-color:black;
+  padding:10px;
+}
+
+.dropdown-content-example {
+  display:none;
+}
+
+.dropdown-example:hover .dropdown-content-example {
+  display:block;
+  z-index:1;
+  position:absolute;
+  width:100px;
+}
+
+.dropdown-content-example a {
+  display:block;
+  color:white;
+  background-color:green;
+  text-decoration:none;
+  padding:10px;
+}
+
+.dropdown-content-example a:hover {
+  background-color:black;
+}
+
+/* END DROPDOWN EXAMPLE */
