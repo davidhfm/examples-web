@@ -217,3 +217,26 @@ table {
   padding:5px;
   margin:5px;
 }
+
+/* START NAVBAR EXAMPLE */
+
+.navbar-example-general a {
+  text-decoration:none;
+  color:white;
+  background-color:green;
+  padding:5px;
+}
+
+.navbar-example-general a:hover {
+  background-color:black;
+}
+
+.navbar-example-vertical {
+  width:100px;
+}
+
+.navbar-example-vertical a {
+  display:block;
+}
+
+/* END NAVBAR EXAMPLE */
