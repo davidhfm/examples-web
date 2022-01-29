@@ -279,3 +279,39 @@ table {
 }
 
 /* END DROPDOWN EXAMPLE */
+
+/* START COUNTER EXAMPLE */
+
+.counter-example-div-1 {
+  counter-reset:counter-example-1;
+}
+
+.counter-example-div-1 p::before {
+  counter-increment:counter-example-1;
+  content:"Counter value: " counter(counter-example-1);
+}
+
+.counter-example-div-2 {
+  counter-reset:counter-example-2-main;
+}
+
+.counter-example-div-2 > div {
+  counter-increment:counter-example-2-main;
+  counter-reset:counter-example-2-sub;
+}
+
+.counter-example-div-2 > div > div::before {
+  counter-increment:counter-example-2-sub;
+  content:"Counter value: "counter(counter-example-2-main) ", " counter(counter-example-2-sub);
+}
+
+.counter-example-div-3 ol {
+  list-style-type:none;
+  counter-reset:counter-example-3;
+}
+
+.counter-example-div-3 li::before {
+  counter-increment:counter-example-3;
+  content:counters(counter-example-3, ".") " ";
+}
+/* END COUNTER EXAMPLE */
