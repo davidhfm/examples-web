@@ -315,3 +315,54 @@ table {
   content:counters(counter-example-3, ".") " ";
 }
 /* END COUNTER EXAMPLE */
+
+/* START BACKGROUND EXAMPLES */
+.background-image-example-1 {
+  background-image:url("images/ayaya-64.png"), url("images/paper-texture.jpg");
+  background-position:right bottom, left top;
+  background-repeat:no-repeat, repeat;
+}
+
+.background-image-example-2 {
+  background-image:url("images/ayaya-512.png"), url("images/ayaya-512.png"), url("images/ayaya-512.png");
+  background-position:right bottom, right bottom, right bottom;
+  background-size:32px 32px, 64px 64px, 160px 160px;
+  background-repeat:no-repeat;
+}
+
+.background-image-example-3 {
+  background-image:url("images/ayaya-160.png");
+  padding:10px;
+  background-origin:border-box;
+}
+
+.background-image-example-4 {
+  background-image:url("images/ayaya-160.png");
+  padding:10px;
+  background-origin:padding-box;
+}
+
+.background-image-example-5 {
+  background-image:url("images/ayaya-160.png");
+  padding:10px;
+  background-origin:content-box;
+}
+
+.background-image-example-6 {
+  background-color:red;
+  background-clip:border-box;
+  padding:10px;
+}
+
+.background-image-example-7 {
+  background-color:red;
+  background-clip:padding-box;
+  padding:10px;
+}
+
+.background-image-example-8 {
+  background-color:red;
+  background-clip:content-box;
+  padding:10px;
+}
+/* END BACKGROUND EXAMPLES */
