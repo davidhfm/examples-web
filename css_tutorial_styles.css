@@ -506,3 +506,147 @@ table {
   transform:rotate(360deg);
 }
 /* END TRANSITION EXAMPLES */
+
+/* START ANIMATION EXAMPLE */
+@keyframes my-animation {
+  from { background-color:cyan; }
+  to { background-color:red; transform:rotate(360deg); }
+}
+
+.animation-example-1 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+}
+
+.animation-example-2 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-delay:1s;
+}
+
+.animation-example-3 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-delay:-3s;
+}
+
+.animation-example-4 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-iteration-count:2;
+}
+
+.animation-example-5 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-iteration-count:infinite;
+}
+
+.animation-example-6 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-direction:reverse;
+}
+
+.animation-example-7 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-iteration-count:2;
+  animation-direction:alternate;
+}
+
+.animation-example-8 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-iteration-count:2;
+  animation-direction:alternate-reverse;
+}
+
+.animation-example-9 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-timing-function:linear;
+}
+
+.animation-example-10 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-timing-function:ease;
+}
+
+.animation-example-11 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-timing-function:ease-in;
+}
+
+.animation-example-12 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-timing-function:ease-out;
+}
+
+.animation-example-13 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-timing-function:ease-in-out;
+}
+
+.animation-example-14 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-fill-mode:forwards;
+}
+
+.animation-example-15 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-delay:2s;
+  animation-fill-mode:backwards;
+}
+
+.animation-example-16 {
+  width:160px;
+  height:160px;
+  animation-name:my-animation;
+  animation-duration:10s;
+  animation-delay:2s;
+  animation-fill-mode:both;
+}
+
+.animation-example-17 {
+  width:160px;
+  height:160px;
+  animation:my-animation 10s linear 1s infinite alternate;
+}
+/* END ANIMATION EXAMPLES */
