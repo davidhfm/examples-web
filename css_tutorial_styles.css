@@ -371,3 +371,45 @@ table {
   font-family:using-font-face;
   src:url("fonts/supermercadoone-regular.ttf");
 }
+
+/* START 2D TRANSFORM EXAMPLES */
+.translate-example:hover {
+  transform:translate(50px, 100px);
+}
+
+.rotate-example:hover {
+  transform:rotate(-20deg);
+}
+
+.scale-example-1:hover {
+  transform:scale(2, 3);
+}
+
+.scale-example-2:hover {
+  transform:scale(0.5, 0.5);
+}
+
+.scale-example-3:hover {
+  transform:scale(2, 1);
+}
+
+.scalex-example:hover {
+  transform:scaleX(2);
+}
+
+.scaley-example:hover {
+  transform:scaleY(2);
+}
+
+.skewx-example:hover {
+  transform:skewx(20deg);
+}
+
+.skewy-example:hover {
+  transform:skewY(20deg);
+}
+
+.skew-example:hover {
+  transform:skew(20deg, 10deg);
+}
+/* END 2D TRANSFORM EXAMPLES */
