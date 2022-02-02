@@ -372,7 +372,7 @@ table {
   src:url("fonts/supermercadoone-regular.ttf");
 }
 
-/* START 2D TRANSFORM EXAMPLES */
+/* START TRANSFORM EXAMPLES */
 .translate-example:hover {
   transform:translate(50px, 100px);
 }
@@ -412,4 +412,16 @@ table {
 .skew-example:hover {
   transform:skew(20deg, 10deg);
 }
-/* END 2D TRANSFORM EXAMPLES */
+
+.rotatex-example:hover {
+  transform:rotateX(150deg);
+}
+
+.rotatey-example:hover {
+  transform:rotateY(150deg);
+}
+
+.rotatez-example:hover {
+  transform:rotateZ(150deg);
+}
+/* END TRANSFORM EXAMPLES */
