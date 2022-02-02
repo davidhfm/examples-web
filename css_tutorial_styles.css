@@ -366,3 +366,8 @@ table {
   padding:10px;
 }
 /* END BACKGROUND EXAMPLES */
+
+@font-face {
+  font-family:using-font-face;
+  src:url("fonts/supermercadoone-regular.ttf");
+}
