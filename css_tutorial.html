@@ -906,6 +906,42 @@ overflow:auto overflow:auto overflow:auto overflow:auto overflow:auto overflow:a
 <div class="animation-example-17 square-10em">animation:my-animation 10s linear 1s infinite alternate</div>
 </section>
 
+<h2>CSS Object-Fit</h2>
+<section style="display:flex;flex-wrap:wrap;">
+<div style="width:164px;height:204px;margin:0.5em;position:relative;">
+<img src="images/ayaya-512.png" alt="ayaya" style="border:2px solid black;width:160px;height:200px;object-fit:fill;">
+<span style="position:absolute;top:4px;left:4px;">object-fit:fill</span>
+</div>
+<div style="width:164px;height:204px;margin:0.5em;position:relative;">
+<img src="images/ayaya-512.png" alt="ayaya" style="border:2px solid black;width:160px;height:200px;object-fit:contain;">
+<span style="position:absolute;top:4px;left:4px;">object-fit:contain</span>
+</div>
+<div style="width:164px;height:204px;margin:0.5em;position:relative;">
+<img src="images/ayaya-512.png" alt="ayaya" style="border:2px solid black;width:160px;height:200px;object-fit:cover;">
+<span style="position:absolute;top:4px;left:4px;">object-fit:cover</span>
+</div>
+<div style="width:164px;height:204px;margin:0.5em;position:relative;">
+<img src="images/ayaya-512.png" alt="ayaya" style="border:2px solid black;width:160px;height:200px;object-fit:none;">
+<span style="position:absolute;top:4px;left:4px;">object-fit:none</span>
+</div>
+<div style="width:164px;height:204px;margin:0.5em;position:relative;">
+<img src="images/ayaya-512.png" alt="ayaya" style="border:2px solid black;width:160px;height:200px;object-fit:scale-down;">
+<span style="position:absolute;top:4px;left:4px;">object-fit:scale-down</span>
+</div>
+<div style="width:100%;display:flex;position:relative;">
+  <div style="width:calc(50% - 4px);border:2px solid black;">
+    <span style="position:absolute;top:2px;left:2px;">object-fit:fill</span>
+    <img src="images/ayaya-512.png" alt="ayaya" style="width:49%;height:220px;">
+    <img src="images/ayaya-gif-220.gif" alt="ayaya-gif" style="width:49%;height:220px;">
+  </div>
+  <div style="width:calc(50% - 4px);border:2px solid black;">
+    <span style="position:absolute;top:2px;left:calc(50%+2px);">object-fit:cover</span>
+    <img src="images/ayaya-512.png" alt="ayaya" style="width:49%;height:220px;object-fit:cover;">
+    <img src="images/ayaya-gif-220.gif" alt="ayaya-gif" style="width:49%;height:220px;object-fit:cover;">
+  </div>
+</div>
+</section>
+
 <div style="height:400px;"></div>
 </body>
 </html>
