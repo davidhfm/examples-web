@@ -664,3 +664,10 @@ table {
   mask-image:radial-gradient(black 50%, rgba(0,0,0,0.5) 50%);
 }
 /* END MASKS EXAMPLES */
+
+.multiple-columns-example {
+  height:5em;	
+  column-count:3;
+  column-gap:20px;
+  column-rule: 2px solid black;
+}
