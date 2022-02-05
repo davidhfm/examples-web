@@ -651,3 +651,16 @@ table {
 }
 /* END ANIMATION EXAMPLES */
 
+/* START MASKS EXAMPLES */
+.masks-example-1 {
+  -webkit-mask-image:linear-gradient(black, transparent);
+  mask-image:linear-gradient(black, transparent);
+}
+
+.masks-example-2 {
+  width:160px;
+  height:160px;
+  -webkit-mask-image:radial-gradient(black 50%, rgba(0,0,0,0.5) 50%);
+  mask-image:radial-gradient(black 50%, rgba(0,0,0,0.5) 50%);
+}
+/* END MASKS EXAMPLES */
