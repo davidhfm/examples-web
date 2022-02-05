@@ -699,10 +699,11 @@ table {
 }
 /* END MEDIA QUERY EXAMPLES */
 
+/* START FLEXBOX EXAMPLES */
 .flex-container-example {
   position:relative; /* just to position the code over the element, not necessary for flexbox */
   display:flex;
-  background-color:cyan;
+  border:2px solid black;
   margin-top:10px;
   padding-top:20px;
 }
@@ -729,3 +730,4 @@ table {
   background-color:white;
   box-sizing:border-box;
 }
+/* END FLEXBOX EXAMPLES */
