@@ -670,9 +670,12 @@ overflow:auto overflow:auto overflow:auto overflow:auto overflow:auto overflow:a
 </section>
 
 <h2>CSS Resize</h2>
-<section>
+<section style="display:flex;flex-wrap:wrap;">
 <textarea>Default textarea</textarea>
-<textarea style="resize:none">resize:none</textarea>
+<textarea style="resize:none;">resize:none</textarea>
+<div class="square-10em" style="resize:both;overflow:auto;">resize:both <br> overflow:auto</div>
+<div class="square-10em" style="resize:horizontal;overflow:auto;">resize:horizontal <br> overflow:auto</div>
+<div class="square-10em" style="resize:vertical;overflow:auto;">resize:vertical <br> overflow:auto</div>
 </section>
 
 <h2>CSS Cursor</h2>
