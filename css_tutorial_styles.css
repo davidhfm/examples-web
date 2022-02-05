@@ -698,3 +698,34 @@ table {
   }
 }
 /* END MEDIA QUERY EXAMPLES */
+
+.flex-container-example {
+  position:relative; /* just to position the code over the element, not necessary for flexbox */
+  display:flex;
+  background-color:cyan;
+  margin-top:10px;
+  padding-top:20px;
+}
+
+.flex-item-example {
+  width:160px;
+  height:160px;
+  border-style:solid;
+  margin:5px;
+  text-align:center;
+  font-size:50px;
+  padding-top:45px;
+  background-color:white;
+  box-sizing:border-box;
+}
+
+.flex-item-example-no-height {
+  width:160px;
+  border-style:solid;
+  margin:5px;
+  text-align:center;
+  font-size:50px;
+  padding-top:45px;
+  background-color:white;
+  box-sizing:border-box;
+}
