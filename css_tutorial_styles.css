@@ -686,3 +686,15 @@ table {
   background-color:var(--local-red);
 }
 /* END VAR EXAMPLES */
+
+/* START MEDIA QUERY EXAMPLES */
+.media-query-example-1 {
+  background-color:blue;
+}
+
+@media screen and (min-width:500px) {
+  .media-query-example-1 {
+    background-color:red;
+  }
+}
+/* END MEDIA QUERY EXAMPLES */
