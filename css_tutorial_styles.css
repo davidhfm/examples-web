@@ -671,3 +671,18 @@ table {
   column-gap:20px;
   column-rule: 2px solid black;
 }
+
+/* START VAR EXAMPLES */
+:root {
+  --global-blue:#5988b5;
+}
+
+.using-var-for-color-example-1 {
+  background-color:var(--global-blue);
+}
+
+.using-var-for-color-example-2 {
+  --local-red:#a32727;
+  background-color:var(--local-red);
+}
+/* END VAR EXAMPLES */
