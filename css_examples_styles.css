@@ -731,3 +731,54 @@ table {
   box-sizing:border-box;
 }
 /* END FLEXBOX EXAMPLES */
+
+/* START GRID EXAMPLES */
+.grid-container-example-1 {
+  display:grid;
+  grid-template-columns:auto auto auto;
+  position:relative; /* just to position the code over the element, not necessary for grid */
+  border:2px solid black;
+  margin-top:10px;
+  padding-top:20px;
+}
+
+.grid-container-example-2 {
+  display:inline-grid;
+}
+
+.grid-item-example {
+  border-style:solid;
+  text-align:center;
+  font-size:50px;
+  padding:10px;
+  background-color:white;
+  box-sizing:border-box;
+}
+
+.grid-area-header-example {
+  grid-area:header;
+}
+
+.grid-area-menu-example {
+  grid-area:menu;
+}
+
+.grid-area-main-example {
+  grid-area:main;
+}
+
+.grid-area-right-example {
+  grid-area:right;
+}
+
+.grid-area-footer-example {
+  grid-area:footer;
+}
+
+.grid-area-container-example {
+  grid-template-areas:
+    'header header header header header header'
+    'menu   main   main   right  right  right'
+    'menu   footer footer footer footer footer';
+}
+/* END GRID EXAMPLES */
