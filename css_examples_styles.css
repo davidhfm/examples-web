@@ -782,3 +782,36 @@ table {
     'menu   footer footer footer footer footer';
 }
 /* END GRID EXAMPLES */
+
+.main-navigation {
+  display:grid;
+}
+
+
+@media only screen and (max-width: 1200px){
+  .main-navigation {
+    grid-template-columns:auto auto auto auto;
+  }  
+}
+
+@media only screen and (max-width: 600px) {
+  .main-navigation {
+    grid-template-columns:auto auto auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-navigation {
+    grid-template-columns:auto auto auto auto auto;
+  }
+}
+
+.main-navigation a {
+  display:inline-block;
+  text-decoration:none;
+}
+
+.main-navigation a:hover {
+  background-color:grey;
+  color:white;
+}
